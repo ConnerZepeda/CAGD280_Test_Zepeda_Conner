@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    //Impliment player movement
+    public float speeed;
+    private Vector3 movePos;
 
-    // Update is called once per frame
-    void Update()
+    private void Move()
     {
-        
+
+    }
+    private void Jump()
+    {
+
     }
 }
